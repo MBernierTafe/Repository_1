@@ -6,7 +6,7 @@ int score = 0
 
 Update()
 {
-	Transform.translate(Vector3.up);
+	Transform.translate(Vector3.left);
 	score = score * 2;
 	Debug.log("Score");
 }
