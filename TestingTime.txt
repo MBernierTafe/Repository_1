@@ -1,1 +1,11 @@
 Betcha can't guess what's in here!
+
+Oh, you guessed text.  Right. Uh.  Okay, you got me.
+
+int score = 0
+
+Update()
+{
+	Transform.translate(Vector3.up);
+	score = score + 1;
+}
